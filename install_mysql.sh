@@ -6,7 +6,7 @@
     exit 1
     fi
 #check if the mysql is exists
-mysql --version
+apt list installed mysql
 if [ $? -eq 0 ]; then
 echo "mysql is already installed"
 exit 1
