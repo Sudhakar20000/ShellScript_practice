@@ -1,3 +1,4 @@
+#!/bin/bash
 echo " give the name of the file:"
 read file
 log="/root/error.log"
