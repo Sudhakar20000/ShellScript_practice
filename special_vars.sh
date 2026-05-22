@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "print all args $@"
 echo "print no.of augs $#"
 echo "print the script name $0"
