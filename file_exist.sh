@@ -1,7 +1,9 @@
 echo " give the name of the file:"
 read file
-if [ -f "$file" ]; then
-echo "the file exist"
+found=$(find / -type f -name $file)
+if [ -n $found ]; then
+echo " file exists"
 else 
-echo "the file not exists"
+echo "file not exists"
 fi
+echo " file locations $found"
