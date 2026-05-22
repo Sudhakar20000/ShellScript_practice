@@ -1,6 +1,6 @@
-#!bin/bash
+#!/bin/bash
 start_time=$(date +%s)
-sleep 10
+sleep 5 &
 end_time=$(date +%s)
-total_time=$(($end_time-$start_time))
-echo "the total time taken to complete $total_time"
+totl_time=$(($end_time-start_time))
+echo "total time taken to complete $total_time seconds"
