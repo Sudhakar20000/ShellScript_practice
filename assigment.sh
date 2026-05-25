@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "Hello world"
 echo "Today :"$(date)
-echo "Running as " $(USER)
-echo "Current Directory" $(PWD)
+echo "Running as " $USER
+echo "Current Directory" $PWD
