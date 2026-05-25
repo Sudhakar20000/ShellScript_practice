@@ -27,5 +27,5 @@ if [ $? -ne 0 ]; then
 else
  echo "success"
  fi
-exit $ALL_SUCCESS
-
+echo $ALL_SUCCESS
+exit
