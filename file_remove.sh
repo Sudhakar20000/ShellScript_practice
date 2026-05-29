@@ -10,9 +10,9 @@ if [ ! -d "$Source_Dir" ]; then
  echo "the given $Source_Dir directory does not exists"
  exit 1
 fi
-FILES=$(find "$Source_Dir" -type f -name *.log -mtime +$Days)
+FILES=$(find "$Source_Dir" -type f -name "*.log" -mtime +$Days)
 
-while IFS = read FILE
+while IFS= read -r FILE
 do
   echo "deleting $FILE"
  rm -rf "$FILE"
