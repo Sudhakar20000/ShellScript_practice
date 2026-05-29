@@ -2,7 +2,7 @@
 Source_Dir=$1
 Days=${2:-14}
 if [ -z "$Source_Dir" ]; then
- echo "give the parameter USAGE:: $0 <source-dir> [days(optional default to 14)]""
+ echo "give the parameter USAGE:: $0 <source-dir> [days(optional default to 14)]"
  exit 1
 fi
 
